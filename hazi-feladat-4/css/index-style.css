@@ -97,3 +97,10 @@ div.desc {
         width: 100%;
     }
 }
+.gallery{
+    transition: width 5s, height 5s;
+}
+.gallery:hover{
+    width: 95%;
+    height: 95%;
+}
