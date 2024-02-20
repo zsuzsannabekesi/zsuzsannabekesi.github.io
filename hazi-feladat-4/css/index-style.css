@@ -52,13 +52,18 @@ h2 {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
 }
 
 .floating-menu a:hover {
     background-color: rgb(228 14 32);
+    box-shadow: 0 5px #808080;
 }
-
+.floating-menu a:active{
+    background-color:rgb(149, 16, 27);
+    box-shadow: 0 2px #4b4a4a;
+    transform: translateY(5px);
+}
 .content {
     display: block;
     margin: 90px 10px 10px 10px;
@@ -101,6 +106,6 @@ div.desc {
     transition: width 5s, height 5s;
 }
 .gallery:hover{
-    width: 95%;
-    height: 95%;
+    width: 98%;
+    height: 98%;
 }
