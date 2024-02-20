@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    position: relative;
+    z-index: 1;
+}
+
+.center {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+
+.text,
+h1 {
+    color: white;
+    font-size: 60px;
+    margin: 3%;
+}
+
+h2 {
+    color: black;
+    font-size: 28px;
+    margin: 90px 10px 30px 10px
+}
+
+.floating-menu {
+    font-size: 22px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+}
+
+.floating-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.floating-menu a:hover {
+    background-color: rgb(228 14 32);
+}
+
+.content {
+    display: block;
+    margin: 90px 10px 10px 10px;
+}
+
+p {
+    margin: auto;
+}
+
+div.gallery img {
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}

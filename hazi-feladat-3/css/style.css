@@ -1,0 +1,71 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #DDD;
+ }
+
+ header img {
+     width: 80%;
+     margin: 0 auto;
+     display: block;
+ }
+
+ .tartalom {
+     width: 80%;
+     margin: 0 auto;
+     background-color: white;
+ }
+
+ .menu {
+     width: 25%;
+     background-color: rgb(3, 255, 5);
+     padding: 20px;
+     float: right;
+     margin-top: 2px;
+ }
+
+ .menu a {
+     display: block;
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     font-family: Arial;
+ }
+
+ .menu a:hover {
+     background-color: black;  
+ }
+
+ .telepules {
+     width: 100%;
+     display: block;
+     text-align:left;
+     padding: 1%
+
+ }
+
+ .telepules h1 {
+     font-family: Arial;
+     font-size: 60px;
+     margin: 70px 0px 20px;
+     text-transform: uppercase;
+     display: inline-flex;
+ }
+
+ .telepules img {
+     width: 100%;
+     margin: 10px 0px 0px;
+    
+ }
+
+ .telepules p {
+     color:#444 ;
+     text-align: justify;
+     font-family: Arial;
+     margin: 20px 0px 20px;
+     display:inline-flex;
+ }
