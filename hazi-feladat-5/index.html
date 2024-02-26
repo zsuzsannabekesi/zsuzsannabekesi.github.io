@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Házi Feladat 5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header">
+        <img src="img/strand.jpg" alt="Kép" width="100">
+    </div>
+
+    <div id="container">
+        <div id="sidebar">
+
+            <ul>
+                <li><a href="#section1">Balaton</a></li>
+                <li><a href="#section2">Tisza-tó</a></li>
+                <li><a href="#section3">Szelidi-tó</a></li>
+            </ul>
+
+            <form action="#" method="POST"><br>
+                <h2>Jelentkezés</h2>
+                <h3>Kérem töltse ki a jelentkezési űrlapot</h3>
+                <label for="name">Név:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">E-mail cím:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Telefonszám:</label><br>
+                <input type="tel" id="phone" name="ph  
+                <label for=" lake">Melyik tó érdekli?</label><br>
+                <select id="lake" name="lake">
+                    <option value="Balaton">Balaton</option>
+                    <option value="Tisza-tó">Tisza-tó</option>
+                    <option value="Szelidi-tó">Szelidi-tó</option>
+                </select><br>
+
+                <label for="accommodation">Milyen szállást keres?</label><br>
+                <select id="accommodation" name="accommodation" multiple>
+                    <option value="szálloda">Szálloda</option>
+                    <option value="apartmanház">Apartmanház</option>
+                    <option value="kemping">Kemping</option>
+                </select><br>
+
+                <label for="meal">Milyen ellátás legyen?</label><br>
+                <input type="radio" id="full-board" name="meal" value="teljes">
+                <label for="full-board">Teljes</label><br>
+                <input type="radio" id="half-board" name="meal" value="fél panzió">
+                <label for="half-board">Fél panzió</label><br>
+                <input type="radio" id="breakfast-only" name="meal" value="csak reggeli">
+                <label for="breakfast-only">Csak reggeli</label><br>
+                <input type="radio" id="no-meal" name="meal" value="nem kérek ellátást">
+                <label for="no-meal">Nem kérek ellátást</label><br>
+
+                <label for="message">Egyéb üzenet:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Mehet">
+            </form>
+
+        </div>
+
+        <div id="content">
+            <div class="section section1" id="section1">
+                <h1>Balaton</h1>
+                <img src="img/balaton-2.JPG" alt="Balaton" srcset="">
+                <p>A Balaton Magyarország legnagyobb tava, amely a Dunántúli-középhegységben található. A tó hossza 77
+                    km, szélessége 1,3-14 km, felülete 600 km², átlagos mélysége 3,3 m. A Balaton a Zala folyótól kapja
+                    a legtöbb vizet, és a Sió csatornán keresztül folyik le. A Balaton partján számos üdülőhely, város
+                    és falu található, amelyek vonzzák a turistákat és a nyaralókat. A Balaton éghajlata enyhe, a nyár
+                    meleg és napos, a tél hideg és csapadékos. A Balaton élővilága gazdag és változatos, többek között
+                    halak, madarak, növények és kagylók élnek a tóban és a környező területeken. A Balaton történelme is
+                    érdekes, hiszen a tó már az őskorban is lakott volt, és számos nép és kultúra hagyott nyomot a
+                    partján. A Balaton a magyar művészet és irodalom egyik legkedveltebb ihletforrása is.</p>
+            </div>
+            <div class="section section2" id="section2">
+                <h1>Tisza-tó</h1>
+                <img src="img/tiszato.jpg" alt="Tisza-tó" srcset="">
+                <p>A Tisza-tó Magyarország második legnagyobb tava és legnagyobb mesterséges tava, amely a Tisza folyó
+                    felduzzasztásával jött létre 1973-ban. A tó területe 127 km², amelyen nyílt vízfelületek, szigetek,
+                    holtágak és sekély csatornák váltakoznak. A tó élővilága gazdag és sokszínű, több mint 200 halfaj,
+                    43 kagylófaj, 200 madárfaj és 600 növényfaj él itt. A tó körül számos üdülőhely, város és falu
+                    található, amelyek különböző programokat és szolgáltatásokat kínálnak a látogatóknak. A tó két
+                    keréken is körbejárható, hiszen egy 65 km hosszú kerékpárút vezet a partján. A tó legnépszerűbb
+                    látnivalója a Poroszlón található Tisza-tavi Ökocentrum, ahol Európa legnagyobb édesvízi akváriuma
+                    és interaktív kiállításai várják a vendégeket. A Tisza-tó egy igazi vízi paradicsom, ahol mindenki
+                    megtalálhatja a számára megfelelő kikapcsolódási lehetőséget.</p>
+            </div>
+            <div class="section section3" id="section3">
+                <h1>Szelidi-tó</h1>
+                <img src="img/szelidi-to (2).jpg" alt="Szelidi-tó" srcset="">
+                <p>A Szelidi-tó egy természetvédelmi terület, amely a Tisza folyó felduzzasztásával jött létre 1973-ban.
+                    A tó területe 127 km², amelyen nyílt vízfelületek, szigetek, holtágak és sekély csatornák
+                    váltakoznak. A tó élővilága gazdag és sokszínű, több mint 200 halfaj, 43 kagylófaj, 200 madárfaj és
+                    600 növényfaj él itt. A tó körül számos üdülőhely, város és falu található, amelyek különböző
+                    programokat és szolgáltatásokat kínálnak a látogatóknak. A tó két keréken is körbejárható, hiszen
+                    egy 65 km hosszú kerékpárút vezet a partján. A tó legnépszerűbb látnivalója a Poroszlón található
+                    Tisza-tavi Ökocentrum, ahol Európa legnagyobb édesvízi akváriuma és interaktív kiállításai várják a
+                    vendégeket. A Szelidi-tó egy igazi vízi paradicsom, ahol mindenki megtalálhatja a számára megfelelő
+                    kikapcsolódási lehetőséget. </p>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <footer>
+            <p>Minden jog fentartva © 2024 - Békési Zsuzsanna </p>
+        </footer>
+    </div>
+</body>
+
+</html>
